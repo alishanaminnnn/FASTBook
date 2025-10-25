@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.postimg.cc/sD0frrqF/logo.png" alt="logo" width="250">
+
+    <h2>FASTBook Login Portal</h2>
+
+    <form onsubmit="return login()">
+      <input type="text" id="studentID" placeholder="Student ID" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+
+    <p id="message"></p> <!-- For showing success or error message -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
