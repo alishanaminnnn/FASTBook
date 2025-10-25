@@ -1,0 +1,60 @@
+/* Center everything on the page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for logo and form */
+.container {
+  text-align: center;
+  transform: translateY(-50px); /* moves slightly upward */
+}
+
+/* Logo styling */
+img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Heading style */
+h2 {
+  color: #333;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Input field styling */
+input {
+  display: block;
+  width: 250px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Button styling */
+button {
+  width: 270px;
+  padding: 10px;
+  background-color: #0099cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #027fa8;
+}
